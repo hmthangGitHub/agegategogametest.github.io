@@ -1172,7 +1172,7 @@
       },
       {
          "id":"us",
-         "age":16,
+         "age":14,
          "type":"ccpa",
          "overAge":17
       },
