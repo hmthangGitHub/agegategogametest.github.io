@@ -1,4 +1,4 @@
-{"test_type" : "FIRST_TIME_USER_FLOW", "test_name" : "US - OVER", "expected_result" : "false", "locale" : "us"}
+{"test_type" : "FIRST_TIME_USER_FLOW", "test_name" : "US - OVER", "expected_result" : "false", "locale" : "us", "input :[{"input" : "something", "value" : "something"},{"input" : "something2", "value" : "something2"}]"}
 {"test_type" : "FIRST_TIME_USER_FLOW", "test_name" : "US - MID", "expected_result" : "false", "locale" : "us"}
 {"test_type" : "RETRIGGERING_FLOW_CHANGE_COUNTRY_INDEX", "test_name" : "US - UNDER", "expected_result" : "false", "locale" : "us"}
 {"test_type" : "RETRIGGERING_FLOW_CHANGE_LEGAL_VERSION", "test_name" : "US - OVER -> something", "expected_result" : "false", "locale" : "us"}
