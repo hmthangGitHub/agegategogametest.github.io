@@ -7,4 +7,5 @@
 {"test_type" : "FIRST_TIME_USER_FLOW", "test_name" : "FR - OVER - YES", "expected_result" : true, "locale" : "us", "input" :[{"input" : "AGE", "value" : "18"},{"input" : "CONFIRM_HANDLE_DATA"},{"input" : "BEHAVIOURAL_YES"}]}
 {"test_type" : "FIRST_TIME_USER_FLOW", "test_name" : "FR - OVER - NO - NO", "expected_result" : true, "locale" : "us", "input" :[{"input" : "AGE", "value" : "18"},{"input" : "CONFIRM_HANDLE_DATA"},{"input" : "BEHAVIOURAL_NO"}, {"input" : "CONFIRM_BEHAVIOURAL_NO"}]}
 {"test_type" : "FIRST_TIME_USER_FLOW", "test_name" : "FR - OVER - NO - YES", "expected_result" : true, "locale" : "us", "input" :[{"input" : "AGE", "value" : "18"},{"input" : "CONFIRM_HANDLE_DATA"},{"input" : "BEHAVIOURAL_NO"},{"input" : "CONFIRM_BEHAVIOURAL_YES"}]}
-{"test_type" : "RETRIGGERING_FLOW_CHANGE_LEGAL_VERSION", "test_name" : "US - OVER -> something", "expected_result" : "false", "locale" : "us"}
+{"test_type" : "FIRST_TIME_USER_FLOW", "test_name" : "VI - UNDER", "expected_result" : false, "locale" : "vi", "input" :[{"input" : "AGE", "value" : "12"},{"input" : "CONFIRM_HANDLE_DATA"}]}
+{"test_type" : "FIRST_TIME_USER_FLOW", "test_name" : "VI - UNDER", "expected_result" : true, "locale" : "vi", "input" :[{"input" : "AGE", "value" : "18"},{"input" : "CONFIRM_HANDLE_DATA"}]}
